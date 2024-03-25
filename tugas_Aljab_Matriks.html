@@ -150,8 +150,8 @@
       
     
     
-    <img src="_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
-    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
+    <img src="_static/1.png" class="logo__image only-light" alt="My sample book - Home"/>
+    <script>document.write(`<img src="_static/1.png" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
   
   
 </a></div>
@@ -416,19 +416,19 @@ document.write(`
 <p>Penjumlahan matriks hanya dapat dilakukan pada matriks dengan dimensi yang sama. Elemen yang memiliki posisi sama pada kedua matriks dijumlahkan.</p>
 <p><strong>Contoh:</strong></p>
 <p>Misalkan matriks A dan B berukuran 2x2:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span> <span class="mi">2</span><span class="p">]</span>
-    <span class="p">[</span><span class="mi">3</span> <span class="mi">4</span><span class="p">]</span>
-
-<span class="n">B</span> <span class="o">=</span> <span class="p">[</span><span class="mi">5</span> <span class="mi">6</span><span class="p">]</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span> <span class="mi">1</span><span class="p">]</span>
     <span class="p">[</span><span class="mi">7</span> <span class="mi">8</span><span class="p">]</span>
+
+<span class="n">B</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span> <span class="mi">7</span><span class="p">]</span>
+    <span class="p">[</span><span class="mi">2</span> <span class="mi">5</span><span class="p">]</span>
 </pre></div>
 </div>
 <p>Maka penjumlahan matriks A dan B adalah:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="o">+</span> <span class="n">B</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="o">+</span><span class="mi">5</span> <span class="mi">2</span><span class="o">+</span><span class="mi">6</span><span class="p">]</span>
-        <span class="p">[</span><span class="mi">3</span><span class="o">+</span><span class="mi">7</span> <span class="mi">4</span><span class="o">+</span><span class="mi">8</span><span class="p">]</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="o">+</span> <span class="n">B</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="o">+</span><span class="mi">4</span> <span class="mi">1</span><span class="o">+</span><span class="mi">7</span><span class="p">]</span>
+        <span class="p">[</span><span class="mi">7</span><span class="o">+</span><span class="mi">2</span> <span class="mi">8</span><span class="o">+</span><span class="mi">5</span><span class="p">]</span>
 
        <span class="o">=</span> <span class="p">[</span><span class="mi">6</span> <span class="mi">8</span><span class="p">]</span>
-        <span class="p">[</span><span class="mi">10</span> <span class="mi">12</span><span class="p">]</span>
+         <span class="p">[</span><span class="mi">9</span> <span class="mi">13</span><span class="p">]</span>
 </pre></div>
 </div>
 <p><br />
@@ -456,16 +456,16 @@ document.write(`
 <p>Pengurangan matriks dilakukan dengan cara yang sama seperti penjumlahan matriks, yaitu dengan mengurangkan elemen yang memiliki posisi sama pada kedua matriks.</p>
 <p><strong>Contoh:</strong></p>
 <p>Misalkan kita memiliki dua matriks A dan B berikut:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]]</span>
-<span class="n">B</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]]</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">]]</span>
+<span class="n">B</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]]</span>
 </pre></div>
 </div>
 <p>Untuk mengurangkan matriks A dan B, kita perlu mengurangkan elemen-elemen matriks yang seletak.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="o">-</span> <span class="n">B</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span> <span class="o">-</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span> <span class="o">-</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span> <span class="o">-</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span> <span class="o">-</span> <span class="mi">5</span><span class="p">]]</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="o">-</span> <span class="n">B</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">3</span> <span class="o">-</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span> <span class="o">-</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span> <span class="o">-</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span> <span class="o">-</span> <span class="mi">4</span><span class="p">]]</span>
 </pre></div>
 </div>
 <p>Hasil pengurangan matriks A dan B adalah matriks berikut:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">C</span> <span class="o">=</span> <span class="p">[[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">]]</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">C</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">]]</span>
 </pre></div>
 </div>
 <p><br />
@@ -473,13 +473,16 @@ document.write(`
 <p>Transpose matriks adalah operasi yang mengubah baris menjadi kolom dan kolom menjadi baris.</p>
 <p><strong>Contoh:</strong></p>
 <p>Misalkan matriks A berukuran 2x2:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span> <span class="mi">2</span><span class="p">]</span>
-    <span class="p">[</span><span class="mi">3</span> <span class="mi">4</span><span class="p">]</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span> <span class="mi">1</span> <span class="mi">0</span><span class="p">]</span>
+    <span class="p">[</span><span class="mi">1</span> <span class="mi">0</span> <span class="mi">2</span><span class="p">]</span>
 </pre></div>
 </div>
 <p>Maka transpose matriks A adalah:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span><span class="o">^</span><span class="n">T</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span> <span class="mi">3</span><span class="p">]</span>
-      <span class="p">[</span><span class="mi">2</span> <span class="mi">4</span><span class="p">]</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>A^T = [2 1]
+      [1 0]
+```   [0 8]
+
+
 </pre></div>
 </div>
 <p>#3. Program Perkalian Matriks</p>
@@ -530,9 +533,7 @@ document.write(`
 </div>
 </div>
 </div>
-<ol class="arabic simple" start="4">
-<li><p>membuat matriks A dan B dengan ordo 3X3 dan matriks C dengan ordo 3X2</p></li>
-</ol>
+<p>##4. membuat matriks A dan B dengan ordo 3X3 dan matriks C dengan ordo 3X2</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Matriks A</span>
