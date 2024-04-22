@@ -1,11 +1,8 @@
-# Welcome to your Jupyter Book
+# Selamat datang di notebook layli 23-185
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+Ini merupakan notebook tugas aljabar linier semester 2 Rahmatul layli 230411100185.
 
-Check out the content pages bundled with this sample book to see more.
+semoga informasi berikut dapat bermanfaat selamat membaca ;)
 
 ```{tableofcontents}
 ```
