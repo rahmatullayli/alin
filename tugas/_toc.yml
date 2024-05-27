@@ -4,7 +4,7 @@
 format: jb-book
 root: intro
 chapters:
-- file: sistemlinear
+- file: Sistemlinier
 - file: tugas_Aljabar_Matriks
 - file: Matrik_Invers
 - file: Determinan
